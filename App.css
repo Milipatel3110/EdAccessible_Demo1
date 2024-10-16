@@ -1,0 +1,45 @@
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6C63FF; /* Color of the logo text */
+}
+
+.logo-text {
+  text-decoration: none;
+  color: inherit; /* Ensure the link does not change the color */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #6C63FF;
+}
+
+.signin-btn {
+  color: #6C63FF;
+  text-decoration: none;
+}
+
+.signin-btn:hover {
+  color: #504AC5;
+}
